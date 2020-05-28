@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_24eb10fe5efa45d3b89f32832326f8e8 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_24eb10fe5efa45d3b89f32832326f8e8" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_24eb10fe5efa45d3b89f32832326f8e8 = L.map(
+                                  'map_24eb10fe5efa45d3b89f32832326f8e8',
+                                  {center: [37.9839412,23.7283052],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d93e9e44e578481e94fd2a8b6f924204 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+        
+    
+            var circle_marker_13cd24536f9d4873b17b23ccbceda75b = L.circleMarker(
+                [37.993974816905286,23.74504052719049],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e56d7ca82d9547979e4e873b40c9efba = L.popup({maxWidth: '300'});
+
+            
+                var html_df8a8fa713ed47a9babcd9731870716c = $('<div id="html_df8a8fa713ed47a9babcd9731870716c" style="width: 100.0%; height: 100.0%;">Kypriadou - Cluster 0</div>')[0];
+                popup_e56d7ca82d9547979e4e873b40c9efba.setContent(html_df8a8fa713ed47a9babcd9731870716c);
+            
+
+            circle_marker_13cd24536f9d4873b17b23ccbceda75b.bindPopup(popup_e56d7ca82d9547979e4e873b40c9efba);
+
+            
+        
+    
+            var circle_marker_5963e098f5634ffab5731441c6fa6fcc = L.circleMarker(
+                [37.993340000000046,23.71637000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7137ade06a24403f90f24e9e779b7dc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_651497c439f1428ca8116584c876bce2 = $('<div id="html_651497c439f1428ca8116584c876bce2" style="width: 100.0%; height: 100.0%;">Kolonos - Cluster 0</div>')[0];
+                popup_7137ade06a24403f90f24e9e779b7dc3.setContent(html_651497c439f1428ca8116584c876bce2);
+            
+
+            circle_marker_5963e098f5634ffab5731441c6fa6fcc.bindPopup(popup_7137ade06a24403f90f24e9e779b7dc3);
+
+            
+        
+    
+            var circle_marker_58367d68ee904cad82638458701811b4 = L.circleMarker(
+                [37.99676000000005,23.706090000000074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e37862efaad7414daee0ac75aacfdcaa = L.popup({maxWidth: '300'});
+
+            
+                var html_7d83f097d7aa4d00882b0b065cc46a5c = $('<div id="html_7d83f097d7aa4d00882b0b065cc46a5c" style="width: 100.0%; height: 100.0%;">Kolokynthou - Cluster 0</div>')[0];
+                popup_e37862efaad7414daee0ac75aacfdcaa.setContent(html_7d83f097d7aa4d00882b0b065cc46a5c);
+            
+
+            circle_marker_58367d68ee904cad82638458701811b4.bindPopup(popup_e37862efaad7414daee0ac75aacfdcaa);
+
+            
+        
+    
+            var circle_marker_e080556c5a244da39d0f68e69aec8881 = L.circleMarker(
+                [37.995420000000024,23.740740000000073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_cf0602e19f3c4bcca9ba7e34f1127731 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c1f054bd8ff458e9a6163a1d7a9a48e = $('<div id="html_2c1f054bd8ff458e9a6163a1d7a9a48e" style="width: 100.0%; height: 100.0%;">Pedion tou Areos - Cluster 0</div>')[0];
+                popup_cf0602e19f3c4bcca9ba7e34f1127731.setContent(html_2c1f054bd8ff458e9a6163a1d7a9a48e);
+            
+
+            circle_marker_e080556c5a244da39d0f68e69aec8881.bindPopup(popup_cf0602e19f3c4bcca9ba7e34f1127731);
+
+            
+        
+    
+            var circle_marker_f98ca35524d34dee85ea5b0b9fe2e7f3 = L.circleMarker(
+                [38.002620000000036,23.751310000000046],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_19ae106258f2432cb2c7acc54455cb65 = L.popup({maxWidth: '300'});
+
+            
+                var html_718b93dcf5494918a82b35d93fd231ac = $('<div id="html_718b93dcf5494918a82b35d93fd231ac" style="width: 100.0%; height: 100.0%;">Polygono, Athens - Cluster 0</div>')[0];
+                popup_19ae106258f2432cb2c7acc54455cb65.setContent(html_718b93dcf5494918a82b35d93fd231ac);
+            
+
+            circle_marker_f98ca35524d34dee85ea5b0b9fe2e7f3.bindPopup(popup_19ae106258f2432cb2c7acc54455cb65);
+
+            
+        
+    
+            var circle_marker_7d3195b43ec344d9a8440aa2e5f340d2 = L.circleMarker(
+                [38.004770000000065,23.717940000000056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_423d24fc5a88400aab9be202167a1d63 = L.popup({maxWidth: '300'});
+
+            
+                var html_efeb5a349f3049e68ce7a2ca00003c7b = $('<div id="html_efeb5a349f3049e68ce7a2ca00003c7b" style="width: 100.0%; height: 100.0%;">Sepolia - Cluster 0</div>')[0];
+                popup_423d24fc5a88400aab9be202167a1d63.setContent(html_efeb5a349f3049e68ce7a2ca00003c7b);
+            
+
+            circle_marker_7d3195b43ec344d9a8440aa2e5f340d2.bindPopup(popup_423d24fc5a88400aab9be202167a1d63);
+
+            
+        
+    
+            var circle_marker_7a3f61efb5954c2cb63c1de7b97a231e = L.circleMarker(
+                [38.003280000000075,23.74060000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_1a5bbf464fbd4c10b9018416a4c5789e = L.popup({maxWidth: '300'});
+
+            
+                var html_e681b012347e4dda89ba8594c5dc2f7d = $('<div id="html_e681b012347e4dda89ba8594c5dc2f7d" style="width: 100.0%; height: 100.0%;">Kypseli, Athens - Cluster 0</div>')[0];
+                popup_1a5bbf464fbd4c10b9018416a4c5789e.setContent(html_e681b012347e4dda89ba8594c5dc2f7d);
+            
+
+            circle_marker_7a3f61efb5954c2cb63c1de7b97a231e.bindPopup(popup_1a5bbf464fbd4c10b9018416a4c5789e);
+
+            
+        
+    
+            var circle_marker_974771fc10cf42e48f6952c1bbeefd00 = L.circleMarker(
+                [38.01997000000006,23.726270000000056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_6b2f3c0edd2d4c20a20f114cac4a72a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_360e1ae394c0400d94a8954211aac4d7 = $('<div id="html_360e1ae394c0400d94a8954211aac4d7" style="width: 100.0%; height: 100.0%;">Agios Eleftherios, Athens - Cluster 0</div>')[0];
+                popup_6b2f3c0edd2d4c20a20f114cac4a72a2.setContent(html_360e1ae394c0400d94a8954211aac4d7);
+            
+
+            circle_marker_974771fc10cf42e48f6952c1bbeefd00.bindPopup(popup_6b2f3c0edd2d4c20a20f114cac4a72a2);
+
+            
+        
+    
+            var circle_marker_200d9cdaf3ce498187179915b6532c6f = L.circleMarker(
+                [37.97614000000004,23.73640000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_5d88c4d73dfd48efabecf20b16abef3c = L.popup({maxWidth: '300'});
+
+            
+                var html_296ac688030540f599a34c151dc80c3c = $('<div id="html_296ac688030540f599a34c151dc80c3c" style="width: 100.0%; height: 100.0%;">Template:Neighbourhoods in Athens - Cluster 1</div>')[0];
+                popup_5d88c4d73dfd48efabecf20b16abef3c.setContent(html_296ac688030540f599a34c151dc80c3c);
+            
+
+            circle_marker_200d9cdaf3ce498187179915b6532c6f.bindPopup(popup_5d88c4d73dfd48efabecf20b16abef3c);
+
+            
+        
+    
+            var circle_marker_ac612cea1fbf4072832ef36158d4dc1b = L.circleMarker(
+                [37.983040000000074,23.718690000000038],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_ecb36e9f1dd4412a98034ef750189d17 = L.popup({maxWidth: '300'});
+
+            
+                var html_348c12366d6f46a2add0f9baa5dc15bf = $('<div id="html_348c12366d6f46a2add0f9baa5dc15bf" style="width: 100.0%; height: 100.0%;">Metaxourgeio - Cluster 1</div>')[0];
+                popup_ecb36e9f1dd4412a98034ef750189d17.setContent(html_348c12366d6f46a2add0f9baa5dc15bf);
+            
+
+            circle_marker_ac612cea1fbf4072832ef36158d4dc1b.bindPopup(popup_ecb36e9f1dd4412a98034ef750189d17);
+
+            
+        
+    
+            var circle_marker_52969247d88a48539cb43d8792be1e55 = L.circleMarker(
+                [37.965220000000045,23.735810000000072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_0d66a2d5b94b497c84c0c4a7ce98c9b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7fd17543572f4089b33458d134062bf9 = $('<div id="html_7fd17543572f4089b33458d134062bf9" style="width: 100.0%; height: 100.0%;">Mets, Athens - Cluster 1</div>')[0];
+                popup_0d66a2d5b94b497c84c0c4a7ce98c9b9.setContent(html_7fd17543572f4089b33458d134062bf9);
+            
+
+            circle_marker_52969247d88a48539cb43d8792be1e55.bindPopup(popup_0d66a2d5b94b497c84c0c4a7ce98c9b9);
+
+            
+        
+    
+            var circle_marker_1d794de3a25347edb63fd0fbc76b7aba = L.circleMarker(
+                [37.975220000000036,23.72756000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_a6db1ae93f5249519dfa4e66f370bca1 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb9e2970326841a289749d03eb2a07c6 = $('<div id="html_eb9e2970326841a289749d03eb2a07c6" style="width: 100.0%; height: 100.0%;">Monastiraki - Cluster 1</div>')[0];
+                popup_a6db1ae93f5249519dfa4e66f370bca1.setContent(html_eb9e2970326841a289749d03eb2a07c6);
+            
+
+            circle_marker_1d794de3a25347edb63fd0fbc76b7aba.bindPopup(popup_a6db1ae93f5249519dfa4e66f370bca1);
+
+            
+        
+    
+            var circle_marker_c25e6bebe0524226a250f035dc9d30f0 = L.circleMarker(
+                [37.97614000000004,23.73640000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_810fca98d6eb4a26945e91be15129491 = L.popup({maxWidth: '300'});
+
+            
+                var html_f74597da5e714fc4bf2c7f98c8d55bc7 = $('<div id="html_f74597da5e714fc4bf2c7f98c8d55bc7" style="width: 100.0%; height: 100.0%;">Treis Gefyres - Cluster 1</div>')[0];
+                popup_810fca98d6eb4a26945e91be15129491.setContent(html_f74597da5e714fc4bf2c7f98c8d55bc7);
+            
+
+            circle_marker_c25e6bebe0524226a250f035dc9d30f0.bindPopup(popup_810fca98d6eb4a26945e91be15129491);
+
+            
+        
+    
+            var circle_marker_4956b8817aac4604a4534d7e016cff83 = L.circleMarker(
+                [37.97798005107051,23.736520018321915],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_b65f29ac4f56446ea8e7307a0ce742fc = L.popup({maxWidth: '300'});
+
+            
+                var html_6e3803e9e9344cea8c93e4577f65d8bc = $('<div id="html_6e3803e9e9344cea8c93e4577f65d8bc" style="width: 100.0%; height: 100.0%;">Mount Lycabettus - Cluster 1</div>')[0];
+                popup_b65f29ac4f56446ea8e7307a0ce742fc.setContent(html_6e3803e9e9344cea8c93e4577f65d8bc);
+            
+
+            circle_marker_4956b8817aac4604a4534d7e016cff83.bindPopup(popup_b65f29ac4f56446ea8e7307a0ce742fc);
+
+            
+        
+    
+            var circle_marker_6c09ac29930c4199943f8d36afdc1b8d = L.circleMarker(
+                [37.98678000000007,23.741480000000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7c7b2a7ebb5148309b94d7769d3e4a85 = L.popup({maxWidth: '300'});
+
+            
+                var html_20e314a67e824c3ca62f63df66ad999a = $('<div id="html_20e314a67e824c3ca62f63df66ad999a" style="width: 100.0%; height: 100.0%;">Neapoli, Athens - Cluster 1</div>')[0];
+                popup_7c7b2a7ebb5148309b94d7769d3e4a85.setContent(html_20e314a67e824c3ca62f63df66ad999a);
+            
+
+            circle_marker_6c09ac29930c4199943f8d36afdc1b8d.bindPopup(popup_7c7b2a7ebb5148309b94d7769d3e4a85);
+
+            
+        
+    
+            var circle_marker_58673b39048a4e7795257986d4437af7 = L.circleMarker(
+                [37.96142000000003,23.728710000000035],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_85cd58cfcd664eb48740f47d398c9915 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e6c94533b7744c985d1eeb5a8878ed4 = $('<div id="html_3e6c94533b7744c985d1eeb5a8878ed4" style="width: 100.0%; height: 100.0%;">Neos Kosmos, Athens - Cluster 1</div>')[0];
+                popup_85cd58cfcd664eb48740f47d398c9915.setContent(html_3e6c94533b7744c985d1eeb5a8878ed4);
+            
+
+            circle_marker_58673b39048a4e7795257986d4437af7.bindPopup(popup_85cd58cfcd664eb48740f47d398c9915);
+
+            
+        
+    
+            var circle_marker_6f4f1acb57164cb8a2c6fb27443b355d = L.circleMarker(
+                [37.98709000000008,23.726720000000057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_d8aaa0c1c95e4292a25b660aa1e27eab = L.popup({maxWidth: '300'});
+
+            
+                var html_24467bfab8064579ab43477e57efe5ff = $('<div id="html_24467bfab8064579ab43477e57efe5ff" style="width: 100.0%; height: 100.0%;">Omonoia, Athens - Cluster 1</div>')[0];
+                popup_d8aaa0c1c95e4292a25b660aa1e27eab.setContent(html_24467bfab8064579ab43477e57efe5ff);
+            
+
+            circle_marker_6f4f1acb57164cb8a2c6fb27443b355d.bindPopup(popup_d8aaa0c1c95e4292a25b660aa1e27eab);
+
+            
+        
+    
+            var circle_marker_09f66dca0ad148ed99bd49656b78e96b = L.circleMarker(
+                [37.96973000000003,23.747300000000052],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e1a35532084b44498a1aa4511b53c5de = L.popup({maxWidth: '300'});
+
+            
+                var html_30de4e5a59854fb69118d4be93903ccc = $('<div id="html_30de4e5a59854fb69118d4be93903ccc" style="width: 100.0%; height: 100.0%;">Pangrati - Cluster 1</div>')[0];
+                popup_e1a35532084b44498a1aa4511b53c5de.setContent(html_30de4e5a59854fb69118d4be93903ccc);
+            
+
+            circle_marker_09f66dca0ad148ed99bd49656b78e96b.bindPopup(popup_e1a35532084b44498a1aa4511b53c5de);
+
+            
+        
+    
+            var circle_marker_5b335e20c4734fc5a4a85bb973b3ae0f = L.circleMarker(
+                [37.97729608381429,23.728681573701458],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e8c91279830644388cd4b09bf006242d = L.popup({maxWidth: '300'});
+
+            
+                var html_7749a4f5252e44f4843a1e3bc7ba3bc9 = $('<div id="html_7749a4f5252e44f4843a1e3bc7ba3bc9" style="width: 100.0%; height: 100.0%;">Skouze Hill - Cluster 1</div>')[0];
+                popup_e8c91279830644388cd4b09bf006242d.setContent(html_7749a4f5252e44f4843a1e3bc7ba3bc9);
+            
+
+            circle_marker_5b335e20c4734fc5a4a85bb973b3ae0f.bindPopup(popup_e8c91279830644388cd4b09bf006242d);
+
+            
+        
+    
+            var circle_marker_51f49771a5164838ae54cb7d1c717ca5 = L.circleMarker(
+                [38.02019000000007,23.735610000000065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_cd370eb4c6bc4a4397e7232bccb9ce37 = L.popup({maxWidth: '300'});
+
+            
+                var html_4934c2da537e49d6a65631d0885ddc75 = $('<div id="html_4934c2da537e49d6a65631d0885ddc75" style="width: 100.0%; height: 100.0%;">Patisia - Cluster 1</div>')[0];
+                popup_cd370eb4c6bc4a4397e7232bccb9ce37.setContent(html_4934c2da537e49d6a65631d0885ddc75);
+            
+
+            circle_marker_51f49771a5164838ae54cb7d1c717ca5.bindPopup(popup_cd370eb4c6bc4a4397e7232bccb9ce37);
+
+            
+        
+    
+            var circle_marker_a39438cfb54d4f4aaf32561250be3936 = L.circleMarker(
+                [37.96948000000003,23.70897000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_6e65a79a7fa84584a5049882b7753f33 = L.popup({maxWidth: '300'});
+
+            
+                var html_34f2891735db47d389c78bde6ae26adf = $('<div id="html_34f2891735db47d389c78bde6ae26adf" style="width: 100.0%; height: 100.0%;">Petralona - Cluster 1</div>')[0];
+                popup_6e65a79a7fa84584a5049882b7753f33.setContent(html_34f2891735db47d389c78bde6ae26adf);
+            
+
+            circle_marker_a39438cfb54d4f4aaf32561250be3936.bindPopup(popup_6e65a79a7fa84584a5049882b7753f33);
+
+            
+        
+    
+            var circle_marker_7f94a407155f4a32a3449da2ad349e3a = L.circleMarker(
+                [37.964824802135155,23.719320634172554],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_35d8689e8c484c1db11d24a856ed8363 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc47ee9c671a490fbac50f0c88757896 = $('<div id="html_dc47ee9c671a490fbac50f0c88757896" style="width: 100.0%; height: 100.0%;">Philopappou - Cluster 1</div>')[0];
+                popup_35d8689e8c484c1db11d24a856ed8363.setContent(html_dc47ee9c671a490fbac50f0c88757896);
+            
+
+            circle_marker_7f94a407155f4a32a3449da2ad349e3a.bindPopup(popup_35d8689e8c484c1db11d24a856ed8363);
+
+            
+        
+    
+            var circle_marker_b5720e440aa94641bbc1226d4bb24862 = L.circleMarker(
+                [37.96807000000007,23.726870000000076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_c5d206442ae9448a968963b83d44ec17 = L.popup({maxWidth: '300'});
+
+            
+                var html_d728674583d14cad952349e24bf07ded = $('<div id="html_d728674583d14cad952349e24bf07ded" style="width: 100.0%; height: 100.0%;">Makrygianni, Athens - Cluster 1</div>')[0];
+                popup_c5d206442ae9448a968963b83d44ec17.setContent(html_d728674583d14cad952349e24bf07ded);
+            
+
+            circle_marker_b5720e440aa94641bbc1226d4bb24862.bindPopup(popup_c5d206442ae9448a968963b83d44ec17);
+
+            
+        
+    
+            var circle_marker_b6dfcec928a640a0998f1426783e056e = L.circleMarker(
+                [37.97481000000005,23.71592000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_345237ae73654ae7a18e72a437528f80 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d01aa98e3be46708bd5555a70e2d669 = $('<div id="html_5d01aa98e3be46708bd5555a70e2d669" style="width: 100.0%; height: 100.0%;">Thiseio - Cluster 1</div>')[0];
+                popup_345237ae73654ae7a18e72a437528f80.setContent(html_5d01aa98e3be46708bd5555a70e2d669);
+            
+
+            circle_marker_b6dfcec928a640a0998f1426783e056e.bindPopup(popup_345237ae73654ae7a18e72a437528f80);
+
+            
+        
+    
+            var circle_marker_8ed09614c7404722916f4a3993f0af0c = L.circleMarker(
+                [37.97614000000004,23.73640000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_3882bc9df4304e4ab4c516e39ecee356 = L.popup({maxWidth: '300'});
+
+            
+                var html_4cbcc2dde4b64e65bd88e4b16bb74307 = $('<div id="html_4cbcc2dde4b64e65bd88e4b16bb74307" style="width: 100.0%; height: 100.0%;">Probonas - Cluster 1</div>')[0];
+                popup_3882bc9df4304e4ab4c516e39ecee356.setContent(html_4cbcc2dde4b64e65bd88e4b16bb74307);
+            
+
+            circle_marker_8ed09614c7404722916f4a3993f0af0c.bindPopup(popup_3882bc9df4304e4ab4c516e39ecee356);
+
+            
+        
+    
+            var circle_marker_5a0f0933506949f38d9f58353dd2c944 = L.circleMarker(
+                [37.98461000000003,23.71162000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_ce83e7d1e30e489f85a21ac661085d55 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a0826ab4df642e5b0e57c4b5c8aa147 = $('<div id="html_3a0826ab4df642e5b0e57c4b5c8aa147" style="width: 100.0%; height: 100.0%;">Profitis Daniil, Athens - Cluster 1</div>')[0];
+                popup_ce83e7d1e30e489f85a21ac661085d55.setContent(html_3a0826ab4df642e5b0e57c4b5c8aa147);
+            
+
+            circle_marker_5a0f0933506949f38d9f58353dd2c944.bindPopup(popup_ce83e7d1e30e489f85a21ac661085d55);
+
+            
+        
+    
+            var circle_marker_fb5a496e2f024389b3da2889bff65116 = L.circleMarker(
+                [38.02833000000004,23.748320000000035],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_a118eb4d8b2f4cfd83594f91abef7db3 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7ed0238ddec4e29a4285e280dc5606b = $('<div id="html_f7ed0238ddec4e29a4285e280dc5606b" style="width: 100.0%; height: 100.0%;">Profitis Ilias, Athens - Cluster 1</div>')[0];
+                popup_a118eb4d8b2f4cfd83594f91abef7db3.setContent(html_f7ed0238ddec4e29a4285e280dc5606b);
+            
+
+            circle_marker_fb5a496e2f024389b3da2889bff65116.bindPopup(popup_a118eb4d8b2f4cfd83594f91abef7db3);
+
+            
+        
+    
+            var circle_marker_422a90cf1c8946d5ae652f578e136f62 = L.circleMarker(
+                [37.97876000000008,23.72667000000007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e0d7f2b80b0645cb9859cab607914843 = L.popup({maxWidth: '300'});
+
+            
+                var html_83c9614629064ee59c9d7cb3bb0c2fd1 = $('<div id="html_83c9614629064ee59c9d7cb3bb0c2fd1" style="width: 100.0%; height: 100.0%;">Psyri - Cluster 1</div>')[0];
+                popup_e0d7f2b80b0645cb9859cab607914843.setContent(html_83c9614629064ee59c9d7cb3bb0c2fd1);
+            
+
+            circle_marker_422a90cf1c8946d5ae652f578e136f62.bindPopup(popup_e0d7f2b80b0645cb9859cab607914843);
+
+            
+        
+    
+            var circle_marker_46e887ef47674ccf947ef0ac65d1c350 = L.circleMarker(
+                [38.02900000000005,23.738770000000045],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_a6a592be335443bc9ac83c31327ec709 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ec7cdce52db461ab6358691fa296bdb = $('<div id="html_2ec7cdce52db461ab6358691fa296bdb" style="width: 100.0%; height: 100.0%;">Rizoupoli - Cluster 1</div>')[0];
+                popup_a6a592be335443bc9ac83c31327ec709.setContent(html_2ec7cdce52db461ab6358691fa296bdb);
+            
+
+            circle_marker_46e887ef47674ccf947ef0ac65d1c350.bindPopup(popup_a6a592be335443bc9ac83c31327ec709);
+
+            
+        
+    
+            var circle_marker_9cc2330fce1e40b3bd7027535bafbe6f = L.circleMarker(
+                [37.976830000000064,23.70989000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_19c33fbb5fef47f398ae8cf9a99169cb = L.popup({maxWidth: '300'});
+
+            
+                var html_5bcdaaa29c65462d9318434a88ff205c = $('<div id="html_5bcdaaa29c65462d9318434a88ff205c" style="width: 100.0%; height: 100.0%;">Rouf, Athens - Cluster 1</div>')[0];
+                popup_19c33fbb5fef47f398ae8cf9a99169cb.setContent(html_5bcdaaa29c65462d9318434a88ff205c);
+            
+
+            circle_marker_9cc2330fce1e40b3bd7027535bafbe6f.bindPopup(popup_19c33fbb5fef47f398ae8cf9a99169cb);
+
+            
+        
+    
+            var circle_marker_aef32ee3a1be49669f541212190abe08 = L.circleMarker(
+                [37.97948000000008,23.643680000000074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e86710683e2c48dfba47d9e624b149f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_fbcba10f4150400e91960bbfc7d25d52 = $('<div id="html_fbcba10f4150400e91960bbfc7d25d52" style="width: 100.0%; height: 100.0%;">Thymarakia - Cluster 1</div>')[0];
+                popup_e86710683e2c48dfba47d9e624b149f3.setContent(html_fbcba10f4150400e91960bbfc7d25d52);
+            
+
+            circle_marker_aef32ee3a1be49669f541212190abe08.bindPopup(popup_e86710683e2c48dfba47d9e624b149f3);
+
+            
+        
+    
+            var circle_marker_d8fe7864deb248c490ddae009e6d2af3 = L.circleMarker(
+                [37.973520000000065,23.72915000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_d394ffea03e443f0b723775522892863 = L.popup({maxWidth: '300'});
+
+            
+                var html_4406fa9db08546949b6e56afb0dbbcc1 = $('<div id="html_4406fa9db08546949b6e56afb0dbbcc1" style="width: 100.0%; height: 100.0%;">Plaka - Cluster 1</div>')[0];
+                popup_d394ffea03e443f0b723775522892863.setContent(html_4406fa9db08546949b6e56afb0dbbcc1);
+            
+
+            circle_marker_d8fe7864deb248c490ddae009e6d2af3.bindPopup(popup_d394ffea03e443f0b723775522892863);
+
+            
+        
+    
+            var circle_marker_c1251f9fab59413181b482b20b2abd93 = L.circleMarker(
+                [37.97614000000004,23.73640000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_1fb753baf65a4abab9ca0a80a7b0c9c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_abc748a7245945da9b1b5d86722c16c7 = $('<div id="html_abc748a7245945da9b1b5d86722c16c7" style="width: 100.0%; height: 100.0%;">Aerides, Athens - Cluster 1</div>')[0];
+                popup_1fb753baf65a4abab9ca0a80a7b0c9c9.setContent(html_abc748a7245945da9b1b5d86722c16c7);
+            
+
+            circle_marker_c1251f9fab59413181b482b20b2abd93.bindPopup(popup_1fb753baf65a4abab9ca0a80a7b0c9c9);
+
+            
+        
+    
+            var circle_marker_63b1833c3ae946dba1d74f8bd9db7c96 = L.circleMarker(
+                [37.988170000000025,23.733610000000056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_b0d4f5d177ea4484a8ef968cfe9c3083 = L.popup({maxWidth: '300'});
+
+            
+                var html_e00fac0bcdc54ed78c9d8659c09fe1ff = $('<div id="html_e00fac0bcdc54ed78c9d8659c09fe1ff" style="width: 100.0%; height: 100.0%;">Exarcheia - Cluster 1</div>')[0];
+                popup_b0d4f5d177ea4484a8ef968cfe9c3083.setContent(html_e00fac0bcdc54ed78c9d8659c09fe1ff);
+            
+
+            circle_marker_63b1833c3ae946dba1d74f8bd9db7c96.bindPopup(popup_b0d4f5d177ea4484a8ef968cfe9c3083);
+
+            
+        
+    
+            var circle_marker_80d75cf479004e799fdbc598f48cecef = L.circleMarker(
+                [37.990950000000055,23.70718000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_631bb09a80c746b2babfe5c726f67b44 = L.popup({maxWidth: '300'});
+
+            
+                var html_22738735180e493e9be32f0cf0685c3f = $('<div id="html_22738735180e493e9be32f0cf0685c3f" style="width: 100.0%; height: 100.0%;">Akadimia Platonos - Cluster 1</div>')[0];
+                popup_631bb09a80c746b2babfe5c726f67b44.setContent(html_22738735180e493e9be32f0cf0685c3f);
+            
+
+            circle_marker_80d75cf479004e799fdbc598f48cecef.bindPopup(popup_631bb09a80c746b2babfe5c726f67b44);
+
+            
+        
+    
+            var circle_marker_9bee76ef6e994c46b85af13e543362c0 = L.circleMarker(
+                [37.98669006939234,23.710910054965638],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_c73dccbe56e14c5396c629e190287f0c = L.popup({maxWidth: '300'});
+
+            
+                var html_50cbb3512f0f45529e2be355ed80a486 = $('<div id="html_50cbb3512f0f45529e2be355ed80a486" style="width: 100.0%; height: 100.0%;">Akadimia, Athens - Cluster 1</div>')[0];
+                popup_c73dccbe56e14c5396c629e190287f0c.setContent(html_50cbb3512f0f45529e2be355ed80a486);
+            
+
+            circle_marker_9bee76ef6e994c46b85af13e543362c0.bindPopup(popup_c73dccbe56e14c5396c629e190287f0c);
+
+            
+        
+    
+            var circle_marker_1a0e8e36d8ff458c93a5cf39bba0f96f = L.circleMarker(
+                [37.972240000000056,23.72852000000006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_843afc1a45204ae9af9a47d47be2af87 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f4fbf472fd74f43a580062ee85eb19f = $('<div id="html_2f4fbf472fd74f43a580062ee85eb19f" style="width: 100.0%; height: 100.0%;">Anafiotika - Cluster 1</div>')[0];
+                popup_843afc1a45204ae9af9a47d47be2af87.setContent(html_2f4fbf472fd74f43a580062ee85eb19f);
+            
+
+            circle_marker_1a0e8e36d8ff458c93a5cf39bba0f96f.bindPopup(popup_843afc1a45204ae9af9a47d47be2af87);
+
+            
+        
+    
+            var circle_marker_b23af311a6b14a3bb38600cd46d91bdf = L.circleMarker(
+                [37.96948000000003,23.70897000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_4b2141db71374843a1f0e82ac4c760e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c1e9d8f992c48a2a16924c484f00e85 = $('<div id="html_2c1e9d8f992c48a2a16924c484f00e85" style="width: 100.0%; height: 100.0%;">Ano Petralona - Cluster 1</div>')[0];
+                popup_4b2141db71374843a1f0e82ac4c760e5.setContent(html_2c1e9d8f992c48a2a16924c484f00e85);
+            
+
+            circle_marker_b23af311a6b14a3bb38600cd46d91bdf.bindPopup(popup_4b2141db71374843a1f0e82ac4c760e5);
+
+            
+        
+    
+            var circle_marker_0f93a36d6f094161882b2644f5b1904d = L.circleMarker(
+                [37.974469937821105,23.719200000000058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_988024454cba4b2f932701a929ca33b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_79c1500d21fd41a0a4662761a35fb16a = $('<div id="html_79c1500d21fd41a0a4662761a35fb16a" style="width: 100.0%; height: 100.0%;">Asteroskopeio - Cluster 1</div>')[0];
+                popup_988024454cba4b2f932701a929ca33b7.setContent(html_79c1500d21fd41a0a4662761a35fb16a);
+            
+
+            circle_marker_0f93a36d6f094161882b2644f5b1904d.bindPopup(popup_988024454cba4b2f932701a929ca33b7);
+
+            
+        
+    
+            var circle_marker_189e1fc2109342b28e7ecdafeccf2b4b = L.circleMarker(
+                [37.98648995614299,23.741039970569684],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_db34ffd85d5d482abee1d2e8c7cffc82 = L.popup({maxWidth: '300'});
+
+            
+                var html_281d3ccd17c34a2b97cf06fc3f76e8d3 = $('<div id="html_281d3ccd17c34a2b97cf06fc3f76e8d3" style="width: 100.0%; height: 100.0%;">Attiki, Athens - Cluster 1</div>')[0];
+                popup_db34ffd85d5d482abee1d2e8c7cffc82.setContent(html_281d3ccd17c34a2b97cf06fc3f76e8d3);
+            
+
+            circle_marker_189e1fc2109342b28e7ecdafeccf2b4b.bindPopup(popup_db34ffd85d5d482abee1d2e8c7cffc82);
+
+            
+        
+    
+            var circle_marker_b105693f207d4e6080f0626104a3082f = L.circleMarker(
+                [37.96667000000008,23.669400000000053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_4bc543220cff416d8e89769b1040e7ed = L.popup({maxWidth: '300'});
+
+            
+                var html_f53dd302be4a4426b5ee6cdbfbce6a0f = $('<div id="html_f53dd302be4a4426b5ee6cdbfbce6a0f" style="width: 100.0%; height: 100.0%;">Elaionas - Cluster 1</div>')[0];
+                popup_4bc543220cff416d8e89769b1040e7ed.setContent(html_f53dd302be4a4426b5ee6cdbfbce6a0f);
+            
+
+            circle_marker_b105693f207d4e6080f0626104a3082f.bindPopup(popup_4bc543220cff416d8e89769b1040e7ed);
+
+            
+        
+    
+            var circle_marker_469f5c373eca45a39cb1da3102353311 = L.circleMarker(
+                [37.99793000000005,23.775160000000028],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_69cce4b447814492b5220a5e69a6f627 = L.popup({maxWidth: '300'});
+
+            
+                var html_64529db53cc84b658a0bac797e71635c = $('<div id="html_64529db53cc84b658a0bac797e71635c" style="width: 100.0%; height: 100.0%;">Ellinoroson - Cluster 1</div>')[0];
+                popup_69cce4b447814492b5220a5e69a6f627.setContent(html_64529db53cc84b658a0bac797e71635c);
+            
+
+            circle_marker_469f5c373eca45a39cb1da3102353311.bindPopup(popup_69cce4b447814492b5220a5e69a6f627);
+
+            
+        
+    
+            var circle_marker_91b5ca88af744140b7ec83801e341ffd = L.circleMarker(
+                [37.977150047752296,23.747729973310978],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_e11ca5fd5c3f49d6b33015dc7cd39951 = L.popup({maxWidth: '300'});
+
+            
+                var html_24b37a5a1dfa4ffe9c5e7eb232bb9977 = $('<div id="html_24b37a5a1dfa4ffe9c5e7eb232bb9977" style="width: 100.0%; height: 100.0%;">Evangelismos, Athens - Cluster 1</div>')[0];
+                popup_e11ca5fd5c3f49d6b33015dc7cd39951.setContent(html_24b37a5a1dfa4ffe9c5e7eb232bb9977);
+            
+
+            circle_marker_91b5ca88af744140b7ec83801e341ffd.bindPopup(popup_e11ca5fd5c3f49d6b33015dc7cd39951);
+
+            
+        
+    
+            var circle_marker_7e67cad8e95a420a84829fcf71bbc5be = L.circleMarker(
+                [37.987030145991206,23.726162271180094],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_d3f0739fb9b245279dab4193df9083b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ce4bf90f95041bfa2bb9299bc90cd7a = $('<div id="html_5ce4bf90f95041bfa2bb9299bc90cd7a" style="width: 100.0%; height: 100.0%;">Vathi, Athens - Cluster 1</div>')[0];
+                popup_d3f0739fb9b245279dab4193df9083b8.setContent(html_5ce4bf90f95041bfa2bb9299bc90cd7a);
+            
+
+            circle_marker_7e67cad8e95a420a84829fcf71bbc5be.bindPopup(popup_d3f0739fb9b245279dab4193df9083b8);
+
+            
+        
+    
+            var circle_marker_dcab925aec154a77a6940dcbeb83c4ee = L.circleMarker(
+                [37.97872000000007,23.714260000000024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_5fade8a2e01645f6b9299dedce8a270d = L.popup({maxWidth: '300'});
+
+            
+                var html_db44ec75669f41c8b4660732aae67b0a = $('<div id="html_db44ec75669f41c8b4660732aae67b0a" style="width: 100.0%; height: 100.0%;">Gazi, Athens - Cluster 1</div>')[0];
+                popup_5fade8a2e01645f6b9299dedce8a270d.setContent(html_db44ec75669f41c8b4660732aae67b0a);
+            
+
+            circle_marker_dcab925aec154a77a6940dcbeb83c4ee.bindPopup(popup_5fade8a2e01645f6b9299dedce8a270d);
+
+            
+        
+    
+            var circle_marker_59b24e9139924105b3b56ce687438039 = L.circleMarker(
+                [37.982830000000035,23.70043000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7d3d08b612bc4859868af594d2d018f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_945c8d5b250e42e0a578d4dc059be4e8 = $('<div id="html_945c8d5b250e42e0a578d4dc059be4e8" style="width: 100.0%; height: 100.0%;">Votanikos - Cluster 1</div>')[0];
+                popup_7d3d08b612bc4859868af594d2d018f9.setContent(html_945c8d5b250e42e0a578d4dc059be4e8);
+            
+
+            circle_marker_59b24e9139924105b3b56ce687438039.bindPopup(popup_7d3d08b612bc4859868af594d2d018f9);
+
+            
+        
+    
+            var circle_marker_a408501c8d884c578dd483f4d81125a8 = L.circleMarker(
+                [37.982920000000036,23.770980000000066],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_8d6c026298c6468a8c140667254b04f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1ea747d330c4917afd2252e4a7dc261 = $('<div id="html_a1ea747d330c4917afd2252e4a7dc261" style="width: 100.0%; height: 100.0%;">Goudi - Cluster 1</div>')[0];
+                popup_8d6c026298c6468a8c140667254b04f0.setContent(html_a1ea747d330c4917afd2252e4a7dc261);
+            
+
+            circle_marker_a408501c8d884c578dd483f4d81125a8.bindPopup(popup_8d6c026298c6468a8c140667254b04f0);
+
+            
+        
+    
+            var circle_marker_2906daab0ce1451da0039f1b6cbb67c2 = L.circleMarker(
+                [37.96002995614295,23.740770069392383],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7d2ad49232584b25901703f7eb0298c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_60ea76b530114d4097f57492c74b1ce7 = $('<div id="html_60ea76b530114d4097f57492c74b1ce7" style="width: 100.0%; height: 100.0%;">Gouva, Athens - Cluster 1</div>')[0];
+                popup_7d2ad49232584b25901703f7eb0298c3.setContent(html_60ea76b530114d4097f57492c74b1ce7);
+            
+
+            circle_marker_2906daab0ce1451da0039f1b6cbb67c2.bindPopup(popup_7d2ad49232584b25901703f7eb0298c3);
+
+            
+        
+    
+            var circle_marker_680533a357ad4a78b5dbc8419722d8ee = L.circleMarker(
+                [37.98856257857937,23.735318969152278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7efb15ee36064802be2869bd6ac7d7c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_d0d6791675d74e92862a1639f0244df2 = $('<div id="html_d0d6791675d74e92862a1639f0244df2" style="width: 100.0%; height: 100.0%;">Kountouriotika - Cluster 1</div>')[0];
+                popup_7efb15ee36064802be2869bd6ac7d7c4.setContent(html_d0d6791675d74e92862a1639f0244df2);
+            
+
+            circle_marker_680533a357ad4a78b5dbc8419722d8ee.bindPopup(popup_7efb15ee36064802be2869bd6ac7d7c4);
+
+            
+        
+    
+            var circle_marker_a12ba33151bd42e19b03192307570a02 = L.circleMarker(
+                [37.976410000000044,23.755570000000034],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_8a9e541641a04f269e42d6b6cfa6e1b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_13043cd0628d40c2a279b9a8778c17fd = $('<div id="html_13043cd0628d40c2a279b9a8778c17fd" style="width: 100.0%; height: 100.0%;">Ilisia, Athens - Cluster 1</div>')[0];
+                popup_8a9e541641a04f269e42d6b6cfa6e1b8.setContent(html_13043cd0628d40c2a279b9a8778c17fd);
+            
+
+            circle_marker_a12ba33151bd42e19b03192307570a02.bindPopup(popup_8a9e541641a04f269e42d6b6cfa6e1b8);
+
+            
+        
+    
+            var circle_marker_ada14cf840dd46e7b069a65f21c6beb4 = L.circleMarker(
+                [37.96691000000004,23.74022000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_32b9d9a4c8284c32aa8c6acf879bbec2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f1b0f6322ea446098bf29bfbd3918b3 = $('<div id="html_7f1b0f6322ea446098bf29bfbd3918b3" style="width: 100.0%; height: 100.0%;">Kallimarmaro - Cluster 1</div>')[0];
+                popup_32b9d9a4c8284c32aa8c6acf879bbec2.setContent(html_7f1b0f6322ea446098bf29bfbd3918b3);
+            
+
+            circle_marker_ada14cf840dd46e7b069a65f21c6beb4.bindPopup(popup_32b9d9a4c8284c32aa8c6acf879bbec2);
+
+            
+        
+    
+            var circle_marker_9e07f9a7609042bfaea613f079622fb5 = L.circleMarker(
+                [37.96691000000004,23.74022000000008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_c16eeaeadd0c44dca83775e6783c6ccd = L.popup({maxWidth: '300'});
+
+            
+                var html_0148ede9ee5243f8b8bcf9645787d201 = $('<div id="html_0148ede9ee5243f8b8bcf9645787d201" style="width: 100.0%; height: 100.0%;">Kallimarmaro, Athens - Cluster 1</div>')[0];
+                popup_c16eeaeadd0c44dca83775e6783c6ccd.setContent(html_0148ede9ee5243f8b8bcf9645787d201);
+            
+
+            circle_marker_9e07f9a7609042bfaea613f079622fb5.bindPopup(popup_c16eeaeadd0c44dca83775e6783c6ccd);
+
+            
+        
+    
+            var circle_marker_ec5e28f1297c487bbf5cd2e14eea7f28 = L.circleMarker(
+                [37.96372000000008,23.72353000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_35c009e40cb149788687f5d835157ee2 = L.popup({maxWidth: '300'});
+
+            
+                var html_d0a8393620294dd7bd6cacb2ce5badab = $('<div id="html_d0a8393620294dd7bd6cacb2ce5badab" style="width: 100.0%; height: 100.0%;">Koukaki - Cluster 1</div>')[0];
+                popup_35c009e40cb149788687f5d835157ee2.setContent(html_d0a8393620294dd7bd6cacb2ce5badab);
+            
+
+            circle_marker_ec5e28f1297c487bbf5cd2e14eea7f28.bindPopup(popup_35c009e40cb149788687f5d835157ee2);
+
+            
+        
+    
+            var circle_marker_b1f0344dafd84faeb9020b59ee0cb384 = L.circleMarker(
+                [37.979190000000074,23.719200000000058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_5e25bc07a3224d6dae8372846ea2681d = L.popup({maxWidth: '300'});
+
+            
+                var html_3909577152ed4a91b5c9ffb8c82fcb5c = $('<div id="html_3909577152ed4a91b5c9ffb8c82fcb5c" style="width: 100.0%; height: 100.0%;">Kerameikos - Cluster 1</div>')[0];
+                popup_5e25bc07a3224d6dae8372846ea2681d.setContent(html_3909577152ed4a91b5c9ffb8c82fcb5c);
+            
+
+            circle_marker_b1f0344dafd84faeb9020b59ee0cb384.bindPopup(popup_5e25bc07a3224d6dae8372846ea2681d);
+
+            
+        
+    
+            var circle_marker_2fdd0e8032f847b2acce6ada736a3274 = L.circleMarker(
+                [37.97762000000006,23.74359000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_c5002ba47520493eb26333dff5df5a02 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe1d56d1a1664ab5819d5f1600423850 = $('<div id="html_fe1d56d1a1664ab5819d5f1600423850" style="width: 100.0%; height: 100.0%;">Kolonaki - Cluster 1</div>')[0];
+                popup_c5002ba47520493eb26333dff5df5a02.setContent(html_fe1d56d1a1664ab5819d5f1600423850);
+            
+
+            circle_marker_2fdd0e8032f847b2acce6ada736a3274.bindPopup(popup_c5002ba47520493eb26333dff5df5a02);
+
+            
+        
+    
+            var circle_marker_69936c2297294540a5126bcd4569ea1d = L.circleMarker(
+                [37.99672000000004,23.727410000000077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_38223bc8909749bda8d1630f574dd46b = L.popup({maxWidth: '300'});
+
+            
+                var html_0b5689d3b53f4ebb902e25b3a1b5786e = $('<div id="html_0b5689d3b53f4ebb902e25b3a1b5786e" style="width: 100.0%; height: 100.0%;">Agios Panteleimonas, Athens - Cluster 2</div>')[0];
+                popup_38223bc8909749bda8d1630f574dd46b.setContent(html_0b5689d3b53f4ebb902e25b3a1b5786e);
+            
+
+            circle_marker_69936c2297294540a5126bcd4569ea1d.bindPopup(popup_38223bc8909749bda8d1630f574dd46b);
+
+            
+        
+    
+            var circle_marker_675420ebcd11449699232b55803db0e7 = L.circleMarker(
+                [37.99106000000006,23.764290000000074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7e35b4e112ea4e27813f38e8fd4c7010 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b0747365112418f82aba69595f7131e = $('<div id="html_0b0747365112418f82aba69595f7131e" style="width: 100.0%; height: 100.0%;">Ampelokipoi, Athens - Cluster 2</div>')[0];
+                popup_7e35b4e112ea4e27813f38e8fd4c7010.setContent(html_0b0747365112418f82aba69595f7131e);
+            
+
+            circle_marker_675420ebcd11449699232b55803db0e7.bindPopup(popup_7e35b4e112ea4e27813f38e8fd4c7010);
+
+            
+        
+    
+            var circle_marker_d2d109aaa3b8492ca6a14556942df039 = L.circleMarker(
+                [37.99682000000007,23.76311000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_dc90c575966d48e58ccca48f4d36f5a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c1d49002eb394029988f397a3e23a6a6 = $('<div id="html_c1d49002eb394029988f397a3e23a6a6" style="width: 100.0%; height: 100.0%;">Nea Filothei - Cluster 2</div>')[0];
+                popup_dc90c575966d48e58ccca48f4d36f5a3.setContent(html_c1d49002eb394029988f397a3e23a6a6);
+            
+
+            circle_marker_d2d109aaa3b8492ca6a14556942df039.bindPopup(popup_dc90c575966d48e58ccca48f4d36f5a3);
+
+            
+        
+    
+            var circle_marker_433018c1ad0443039f6271f2829a58f1 = L.circleMarker(
+                [37.9316200676185,23.721150975535412],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_9402743aa2ad404398510fbcb4865fe0 = L.popup({maxWidth: '300'});
+
+            
+                var html_d218488eff3841b4a2f2e4664a1170aa = $('<div id="html_d218488eff3841b4a2f2e4664a1170aa" style="width: 100.0%; height: 100.0%;">Asyrmatos, Athens - Cluster 2</div>')[0];
+                popup_9402743aa2ad404398510fbcb4865fe0.setContent(html_d218488eff3841b4a2f2e4664a1170aa);
+            
+
+            circle_marker_433018c1ad0443039f6271f2829a58f1.bindPopup(popup_9402743aa2ad404398510fbcb4865fe0);
+
+            
+        
+    
+            var circle_marker_dc4c4426ebc34bbc8c36cdbbbbb8d453 = L.circleMarker(
+                [37.99268103211144,23.767639433993164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_476bdbc9d01242819852eec1698e9863 = L.popup({maxWidth: '300'});
+
+            
+                var html_a5378f61b41b4b35b4e05cbc4d8fb6fc = $('<div id="html_a5378f61b41b4b35b4e05cbc4d8fb6fc" style="width: 100.0%; height: 100.0%;">Erythros Stavros - Cluster 2</div>')[0];
+                popup_476bdbc9d01242819852eec1698e9863.setContent(html_a5378f61b41b4b35b4e05cbc4d8fb6fc);
+            
+
+            circle_marker_dc4c4426ebc34bbc8c36cdbbbbb8d453.bindPopup(popup_476bdbc9d01242819852eec1698e9863);
+
+            
+        
+    
+            var circle_marker_b007dc7b15474863bbff270def5bb70d = L.circleMarker(
+                [38.0204746539529,23.845249735730313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_213b5b3a27f74e72be24bebe1bf3f739 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9b69bcb13314342bef83c4d34983274 = $('<div id="html_b9b69bcb13314342bef83c4d34983274" style="width: 100.0%; height: 100.0%;">Gyzi - Cluster 2</div>')[0];
+                popup_213b5b3a27f74e72be24bebe1bf3f739.setContent(html_b9b69bcb13314342bef83c4d34983274);
+            
+
+            circle_marker_b007dc7b15474863bbff270def5bb70d.bindPopup(popup_213b5b3a27f74e72be24bebe1bf3f739);
+
+            
+        
+    
+            var circle_marker_d0190bb126094860a7e652a266a25ba8 = L.circleMarker(
+                [37.99711000000008,23.76406000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_56d9e57fba1e4c6fad3ad225ac1f81dd = L.popup({maxWidth: '300'});
+
+            
+                var html_78a2829cde5943c8960c62e2e3baaff9 = $('<div id="html_78a2829cde5943c8960c62e2e3baaff9" style="width: 100.0%; height: 100.0%;">Girokomeio, Athens - Cluster 2</div>')[0];
+                popup_56d9e57fba1e4c6fad3ad225ac1f81dd.setContent(html_78a2829cde5943c8960c62e2e3baaff9);
+            
+
+            circle_marker_d0190bb126094860a7e652a266a25ba8.bindPopup(popup_56d9e57fba1e4c6fad3ad225ac1f81dd);
+
+            
+        
+    
+            var circle_marker_2bf306d2ae184a93922134808bd53be8 = L.circleMarker(
+                [38.023996499999996,23.673818250000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_24eb10fe5efa45d3b89f32832326f8e8);
+            
+    
+            var popup_7e15b95e0090451f95fb87483b21abb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f332dea68f0463f9847c8aa4828befd = $('<div id="html_9f332dea68f0463f9847c8aa4828befd" style="width: 100.0%; height: 100.0%;">Kynosargous - Cluster 2</div>')[0];
+                popup_7e15b95e0090451f95fb87483b21abb0.setContent(html_9f332dea68f0463f9847c8aa4828befd);
+            
+
+            circle_marker_2bf306d2ae184a93922134808bd53be8.bindPopup(popup_7e15b95e0090451f95fb87483b21abb0);
+
+            
+        
+</script>
